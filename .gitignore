@@ -1,0 +1,28 @@
+# Project exclude paths
+/library-app/.gradle/
+/library-app/build/
+/library-app/build/classes/java/main/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Database ###
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
+
+### Gradle Patch ###
+**/build/
+
+### Gradle ###
+.gradle
+build/
